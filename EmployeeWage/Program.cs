@@ -7,10 +7,15 @@
             Console.WriteLine("Welcome to Employee Wage Computation Program !!!");
 
             ////UC1
-            EmpPresentAbsent empPresentAbsent = new EmpPresentAbsent();
-            empPresentAbsent.EmployeepresentAbsent();
-           
-            Console.WriteLine();
+            //EmpPresentAbsent empPresentAbsent = new EmpPresentAbsent();
+            //empPresentAbsent.EmployeepresentAbsent();
+  
+            //Console.WriteLine();
+
+
+            ///UC2
+            EmpDailyWage empDailyWage = new EmpDailyWage();
+            empDailyWage.DailyWage();
         }
     }
 }
