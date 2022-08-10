@@ -14,8 +14,12 @@
 
 
             ///UC2
-            EmpDailyWage empDailyWage = new EmpDailyWage();
-            empDailyWage.DailyWage();
+            //EmpDailyWage empDailyWage = new EmpDailyWage();
+            //empDailyWage.DailyWage();
+
+            ////UC3
+            FullTimePartTime fullTimePartTime = new FullTimePartTime();
+            fullTimePartTime.PartTimeFullTime();
         }
     }
 }
