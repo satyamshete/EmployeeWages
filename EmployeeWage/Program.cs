@@ -22,8 +22,12 @@
             //fullTimePartTime.PartTimeFullTime();
 
             /////UC4
-            EmpWageSwitchCase empWageSwitchCase = new EmpWageSwitchCase();
-            empWageSwitchCase.SwitchCasePartTimeFullTime();
+            //EmpWageSwitchCase empWageSwitchCase = new EmpWageSwitchCase();
+            //empWageSwitchCase.SwitchCasePartTimeFullTime();
+
+            /////UC5
+            EmpWageMonthly empWageMonthly = new EmpWageMonthly();
+            empWageMonthly.MonthlyWage();
         }
     }
 }
