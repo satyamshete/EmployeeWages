@@ -18,8 +18,12 @@
             //empDailyWage.DailyWage();
 
             ////UC3
-            FullTimePartTime fullTimePartTime = new FullTimePartTime();
-            fullTimePartTime.PartTimeFullTime();
+            //FullTimePartTime fullTimePartTime = new FullTimePartTime();
+            //fullTimePartTime.PartTimeFullTime();
+
+            /////UC4
+            EmpWageSwitchCase empWageSwitchCase = new EmpWageSwitchCase();
+            empWageSwitchCase.SwitchCasePartTimeFullTime();
         }
     }
 }
