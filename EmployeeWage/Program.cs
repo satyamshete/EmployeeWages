@@ -9,7 +9,7 @@
             ////UC1
             //EmpPresentAbsent empPresentAbsent = new EmpPresentAbsent();
             //empPresentAbsent.EmployeepresentAbsent();
-  
+
             //Console.WriteLine();
 
 
@@ -29,9 +29,12 @@
             //EmpWageMonthly empWageMonthly = new EmpWageMonthly();
             //empWageMonthly.MonthlyWage();
 
-            ///////UC6
-            ConditionalEmpWage conditionalEmpWage = new ConditionalEmpWage();
-            conditionalEmpWage.MonthlyWage();
+            ///////////UC6
+            //ConditionalEmpWage conditionalEmpWage = new ConditionalEmpWage();
+            //conditionalEmpWage.MonthlyWage();
+
+            ///////////UC7 Employee wage by class method
+            ComputeEmpWage.ComputeWage();
         }
     }
 }
