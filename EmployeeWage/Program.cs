@@ -34,7 +34,11 @@
             //conditionalEmpWage.MonthlyWage();
 
             ///////////UC7 Employee wage by class method
-            ComputeEmpWage.ComputeWage();
+            //ComputeEmpWage.ComputeWage();
+
+            //////////UC8 for multiple companies
+            ForMultipleCompanies.ComputeWage("NAASA", 200, 18, 100);
+            ForMultipleCompanies.ComputeWage("Googlle", 100, 20, 160);
         }
     }
 }
