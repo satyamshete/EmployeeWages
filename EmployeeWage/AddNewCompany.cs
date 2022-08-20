@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace EmployeeWage
 {
-    internal class AddNewCompany
+    internal interface IGData
+    {
+        public ComputeWage GetData();
+
+    }
+    internal class AddNewCompany : IGData
     {
         
         string CompanyName;

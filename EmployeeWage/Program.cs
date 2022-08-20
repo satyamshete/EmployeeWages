@@ -45,6 +45,20 @@
             //Nasa.DisplaySalary();
 
             /////UC10
+            // AddNewCompany company = new AddNewCompany();
+            //for (int i = 0; i < 3; i++)
+            //{
+
+            //    company.AddCompanyByArray();
+
+            //    if (i == 2)
+            //    {
+            //        company.DisplayByArray();
+            //    }
+            //}
+
+
+            ////UC11
             AddNewCompany company = new AddNewCompany();
             for (int i = 0; i < 3; i++)
             {
@@ -56,6 +70,7 @@
                     company.DisplayByArray();
                 }
             }
+
 
         }
     }
