@@ -37,8 +37,13 @@
             //ComputeEmpWage.ComputeWage();
 
             //////////UC8 for multiple companies
-            ForMultipleCompanies.ComputeWage("NAASA", 200, 18, 100);
-            ForMultipleCompanies.ComputeWage("Googlle", 100, 20, 160);
+            //ForMultipleCompanies.ComputeWage("NAASA", 200, 18, 100);
+            //ForMultipleCompanies.ComputeWage("Googlle", 100, 20, 160);
+
+            ///////UC9
+            ComputeWage Nasa = new ComputeWage("Nasa", 200, 18, 100);
+            Nasa.DisplaySalary();
+
         }
     }
 }
