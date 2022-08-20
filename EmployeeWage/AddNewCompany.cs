@@ -64,6 +64,18 @@ namespace EmployeeWage
                 Console.WriteLine("Total wage for company {0} is {1}", computeWage.CompanyName, computeWage.totalWage);
             }
         }
-
+        public void DisplayDailyByList()  
+        {
+            foreach (var computeWage in CompanyList)
+            {
+                Console.WriteLine("Total wage for company {0} is {1} ", computeWage.CompanyName, computeWage.totalWage);
+                Console.Write("And dailyWage is: ");
+                foreach (var dailywage in computeWage.DailyWage)
+                {
+                    Console.Write(dailywage + " ");
+                }
+                Console.WriteLine();
+            }
+        }
     }
 }

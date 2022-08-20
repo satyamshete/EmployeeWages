@@ -72,6 +72,19 @@
             //}
 
             ////UC12 
+            //AddNewCompany company = new AddNewCompany();
+            //Console.WriteLine("Enter y to add company");
+            //string input = Console.ReadLine();
+            //while (input == "y")
+            //{
+            //    company.AddCompanyBylist();
+            //    Console.WriteLine("Company Data Stored again enter y to add company");
+            //    input = Console.ReadLine();
+
+            //}
+            //company.DisplayByList();
+
+            /////UC13
             AddNewCompany company = new AddNewCompany();
             Console.WriteLine("Enter y to add company");
             string input = Console.ReadLine();
@@ -83,7 +96,7 @@
 
             }
             company.DisplayByList();
-
+            company.DisplayDailyByList();
 
         }
     }
