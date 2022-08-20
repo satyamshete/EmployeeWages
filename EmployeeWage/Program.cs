@@ -41,8 +41,21 @@
             //ForMultipleCompanies.ComputeWage("Googlle", 100, 20, 160);
 
             ///////UC9
-            ComputeWage Nasa = new ComputeWage("Nasa", 200, 18, 100);
-            Nasa.DisplaySalary();
+            //ComputeWage Nasa = new ComputeWage("Nasa", 200, 18, 100);
+            //Nasa.DisplaySalary();
+
+            /////UC10
+            AddNewCompany company = new AddNewCompany();
+            for (int i = 0; i < 3; i++)
+            {
+
+                company.AddCompanyByArray();
+
+                if (i == 2)
+                {
+                    company.DisplayByArray();
+                }
+            }
 
         }
     }
