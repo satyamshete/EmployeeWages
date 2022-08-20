@@ -59,17 +59,30 @@
 
 
             ////UC11
+            //AddNewCompany company = new AddNewCompany();
+            //for (int i = 0; i < 3; i++)
+            //{
+
+            //    company.AddCompanyByArray();
+
+            //    if (i == 2)
+            //    {
+            //        company.DisplayByArray();
+            //    }
+            //}
+
+            ////UC12 
             AddNewCompany company = new AddNewCompany();
-            for (int i = 0; i < 3; i++)
+            Console.WriteLine("Enter y to add company");
+            string input = Console.ReadLine();
+            while (input == "y")
             {
+                company.AddCompanyBylist();
+                Console.WriteLine("Company Data Stored again enter y to add company");
+                input = Console.ReadLine();
 
-                company.AddCompanyByArray();
-
-                if (i == 2)
-                {
-                    company.DisplayByArray();
-                }
             }
+            company.DisplayByList();
 
 
         }
